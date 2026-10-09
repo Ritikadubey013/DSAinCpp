@@ -3,13 +3,20 @@ using namespace std;
 
 int main()
 {
-    
-    for(int i=1;i<=5;i++)
+    // taking values 
+    int n;
+    cout<<"enter value";
+    cin>>n;
+    for(int i=1;i<=n;i++)
     {
-        for(int j=1;j<=5-i;j++)
+        // space print
+
+        for(int j=1;j<=n-i;j++)
         {
            cout<<" ";
         }
+        // star print
+
         for(int j=1;j<=i;j++){
             cout<<"*";
         }
